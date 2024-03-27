@@ -15,7 +15,7 @@ This repository contains all the information needed to reproduce the results for
  Both approaches need the following input values:
  
  ## Arguments
- - $R \in \{-1,1\}^{t \times m}$ : The Matrix of classification of $m$ unlabeled points in $t$ trees.
+ - $R \in {-1,1}^{t \times m}$ : The Matrix of classification of $m$ unlabeled points in $t$ trees.
  - $\lambda$: how many unlabeled points belong to the positive class
  - $\ell$ and $u$ : lower and upper bound for each entrance of $\alpha$.
  - maxtime: time limit
