@@ -1,0 +1,16 @@
+name = "C2RF"
+uuid = "8ef2dda7-eebe-4167-8dac-fcabb67d7cc6"
+authors = ["mariaepinheiro <pinheiro@uni-trier.de\ngit config --global user.email pinheiro@uni-trier.de\ngit config --global user.email pinheiro@uni-trier.de>"]
+version = "0.1.0"
+
+[deps]
+DecisionTree = "7806a523-6efd-50cb-b5f6-3fa6f1930dbb"
+GroupSlices = "d853e229-7c7c-56e9-b6be-9a1acc5f13d9"
+Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+SCIP = "82193955-e24f-5292-bf16-6f2c5261a85f"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
