@@ -21,6 +21,6 @@ This repository contains all the information needed to reproduce the results for
  - maxtime: time limit
  - solver: By default we use solver=1, which means we are using Gurobi. For that, it is necessary a Gurobi license. If choose any different value, SCIP is used, however no branching priority is considered.
 
- - 
+
 
  
