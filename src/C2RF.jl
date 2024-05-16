@@ -112,17 +112,12 @@ function pC2RFA(R, ℓ, u, λ, maxtime)
   
     ####ordering: step 15
     value2 = abs.((mean(R2, dims=2)))[:, 1]
-    cvalue = countmap(value2)
-    lD = length(cvalue)
-    order = zeros(size(R2)[1])
-    sD = sort(collect(keys(cvalue)), rev=true)
-    for ia = 1:lD
-        fD = findall(x -> x == sD[ia], value2)
-        for j ∈ fD
-            order[j] = lD - ia + 1
-        end
-    end
-    order = Int64.(order)
+    order = sortperm(value2,rev=false)
+    order2 = zeros(length(order))
+    for i = 1 : length(order)
+       order2[i] = findfirst(x-> x==i, order)
+       end
+    order= Int64.(order2)
     return R2, w,  η0, λ0, order, indα
 
 
